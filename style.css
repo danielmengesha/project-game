@@ -1,4 +1,71 @@
-
 body{
-    font-family: Lato;
-}
+    background-color: rgba(83, 92, 92, 0.8);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 1% auto;
+    padding: 0px;
+    max-width: 100%;
+ }
+ 
+ .test{
+     font-size: 22px;
+ }
+ #button{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ 
+ #button, .katigorie{
+    background-color: rgb(18, 70, 243);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-right: 20px;
+    color: white;
+ }
+
+ 
+ #eins{
+     opacity: 0;
+     /*visibility: hidden; */
+ 
+ }
+ 
+ #submit{
+    background-color: rgb(118, 243, 147);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-right: 20px;
+ 
+ 
+ }
+ .brett{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .spieler_1{
+    margin-right: 30px;
+ }
+ .spieler_2{
+    margin-left: 30px;
+ }
+ .katigorie{
+     
+   /*   opacity: 0;  */
+     margin: 5px;
+     
+ }
+
+  /* .form{
+    text-align: center
+    padding: 3%;
+    max-width: 50%; 
+    background: black;
+    border: black, 1px, solid;
+    text-align: left;
+    }  */
